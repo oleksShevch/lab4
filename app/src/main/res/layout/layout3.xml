@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Опори на шинах 110 кВ підстанції"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Нормальний режим:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/lay3_Rcn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="R с.н.  (Ом)"
+        android:textSize="24sp"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/lay3_Xcn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="X с.н.  (Ом)"
+        android:textSize="24sp"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Мінімальний режим:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/lay3_Rcmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="R с. min  (Ом)"
+        android:textSize="24sp"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/lay3_Xcmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="X с. min  (Ом)"
+        android:textSize="24sp"
+        android:inputType="numberDecimal" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Розрахувати"
+        android:id="@+id/lay3_button" />
+
+    <TextView
+        android:id="@+id/lay3_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="24sp" />
+
+
+</LinearLayout>

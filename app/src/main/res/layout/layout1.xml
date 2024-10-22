@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Для кабелів з паперовою ізоляцією для Тм = 4000 год. Jек = 1.4"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Розразункове навантаження (Sм)"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/lay1_load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="кВ*А"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Напруга мережі (U)"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/lay1_voltage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="кВ"
+        android:textSize="24sp"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Струм КЗ"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/lay1_strumKZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="кА"
+        android:textSize="24sp"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Час вимикання струму КЗ"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/lay1_off_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="c"
+        android:textSize="24sp"
+        android:inputType="numberDecimal" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Розрахувати"
+        android:id="@+id/lay1_button" />
+
+    <TextView
+        android:id="@+id/lay1_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="24sp" />
+
+    <!-- Other UI elements for layout one -->
+
+</LinearLayout>
